@@ -403,7 +403,8 @@ ul.nav.navbar-nav li a {
     }
 
         .team-members .member a.team-image img {
-            width: 100%;
+            width: 400px;
+            height: 400px;
         }
 
 .inner-details .member-details {
@@ -583,14 +584,15 @@ section.blog {
     height: auto;
     border: 1px solid #e1e8ed;
     background: #fff;
-    min-height: 650px;
-    max-height: 700px;
+    min-height: 400px;
+    max-height: 500px;
     height: 50%;
 }
 
     .blok-read-sm img {
         width: 100%;
         height: auto;
+        max-height: 160px;
     }
 
 .content-block .button-main {
@@ -614,6 +616,7 @@ section.blog {
     position: relative;
     width: 100%;
     float: left;
+    max-height: 100px;
 }
 
 .layer-block {
@@ -1065,6 +1068,7 @@ a:hover {
 .panel-body {
     padding: 15px;
     background: white;
+    min-height: 512px;
 }
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* -----Event Tabs ----- */
@@ -1557,6 +1561,16 @@ footer {
 .eventdetail {
     min-height: 250px;
 }
-.navbar{
-    margin-bottom:unset;
+
+.navbar {
+    margin-bottom: unset;
+}
+
+.item img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.man {
+    height: 200px;
 }
